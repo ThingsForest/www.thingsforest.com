@@ -1,27 +1,57 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
+# Things Forest main website
 
-[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+This repository contains the sources to build the main Things Forest website.
+It is constructed using Bootstrap and the [Start Bootstrap Creative Template](README.original.md).
 
-## Getting Started
+## Minimal survival commands
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/creative/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-creative.git`
-* Fork the repo
+```bash
+$ npm update
+...
+creative@1.0.3 /Users/xtof/Workspace/thingsforest/www.thingsforest.com
+├── grunt@0.4.5 
+├── grunt-banner@0.2.3 
+├── grunt-contrib-less@0.11.4 
+├── grunt-contrib-sass@0.9.2 
+├── grunt-contrib-uglify@0.5.1 
+└── grunt-contrib-watch@0.6.1 
 
-## Bugs and Issues
+$ bundle update
+...
+Using github-pages 75
+Bundle updated!
+```
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
+### Generating and serving
 
-## Creator
+```bash
+$ bundle exec jekyll serve
+Configuration file: /Users/xtof/Workspace/thingsforest/www.thingsforest.com/_config.yml
+            Source: /Users/xtof/Workspace/thingsforest/www.thingsforest.com
+       Destination: /Users/xtof/Workspace/thingsforest/www.thingsforest.com/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 1.161 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+Configuration file: /Users/xtof/Workspace/thingsforest/www.thingsforest.com/_config.yml
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+```
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+### Building from less sources
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+```bash
+$ grunt
+Running "uglify:main" (uglify) task
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Running "less:expanded" (less) task
+File css/creative.css created: 0 B → 9.06 kB
 
-## Copyright and License
+Running "less:minified" (less) task
+File css/creative.min.css created: 9.06 kB → 7.61 kB
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license.
+Running "usebanner:dist" (usebanner) task
+✔ grunt-banner completed successfully
+
+Done, without errors.
+```
