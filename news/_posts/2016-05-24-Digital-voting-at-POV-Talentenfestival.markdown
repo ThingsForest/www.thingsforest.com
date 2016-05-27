@@ -6,7 +6,7 @@ title: Digital voting at POV Talentenfestival
 <img class="thumb" alt="POV Talentenfestival" src="/news/img/pov-badge.jpeg" height="250px" align="right">
 <img class="thumb" alt="POV Talentenfestival" src="/news/img/pov-talentenfestival.jpeg" height="250px" align="right">
 In the presence of Flemish minister of education, Hilde Crevits, the winner of
-the POV Talentenfestival 2016 was voted for using Things Forest wearable
+the POV Talentenfestival 2016 was elected using Things Forest wearable
 technology.
 
 <!--more-->

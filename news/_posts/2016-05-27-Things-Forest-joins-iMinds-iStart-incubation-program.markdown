@@ -8,18 +8,18 @@ Things Forest is proud to be selected for iStart, the award-winning business inc
 <!--more-->
 
 The expert coaching, support and counseling from experienced entrepreneurs, as
-well as pre-seed funding and the vast business network of iMinds will prove to
-be key ingredients to bring Things Forest's vision to the market.
+well as pre-seed funding and the vast business network of iMinds will be key
+ingredients to bring Things Forest's vision to the market.
 
 The program will enable us to further explore our target markets and prepare
-for an international initial launch of our product portfolio. Having access to
-a proven business network, we will be able to get in touch with new partners to
-expand our reach and strengthen our ability to execute.
+for the launch of our product portfolio. Having access to a proven business
+network, we will be able to get in touch with new partners to expand our reach
+and strengthen our ability to execute.
 
 We are thrilled to be part of this world-class start-up ecosystem and look
 forward to collaborate with iMinds and the other iStart start-ups.
 
-<p align="center"><img src="/news/img/iminds.png" width="400"></p>
+<p align="center"><img src="/news/img/iminds.png" width="350"></p>
 
 ## About iMinds
 
