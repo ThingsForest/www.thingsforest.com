@@ -71,10 +71,10 @@ aside {
     padding: 0;
 }
 
-// *igation
+// Navigation
 
 .navbar-default {
-    background-color: white;
+    background-color: #eee;
     border: 0px;
     background-image: url("/img/header.jpg");
     .sans-serif-font;
@@ -94,6 +94,7 @@ aside {
             > a,
             > a:focus {
                 text-transform: uppercase;
+                text-align: right;
                 font-weight: 700;
                 font-size: 13px;
                 color: white;
@@ -115,45 +116,16 @@ aside {
     }
 }
 
-.navbar-main {
-    background-color: white;
-    border-color: fade(@theme-dark, 5%);
-    .sans-serif-font;
-    .transition-all;
-    .navbar-header .navbar-brand {
-        color: @theme-primary;
-        .sans-serif-font;
-        font-weight: 700;
-        text-transform: uppercase;
-        &:hover,
-        &:focus {
-            color: darken(@theme-primary, 10%);
-        }
+body.main .navbar-default {
+  background-image: none;
+  .nav {
+    > li {
+      > a,
+      > a:focus {
+          color: @theme-dark;
+      }
     }
-    .nav {
-        > li {
-            > a,
-            > a:focus {
-                text-transform: uppercase;
-                font-weight: 700;
-                font-size: 13px;
-                color: @theme-dark;
-                &:hover {
-                    color: @theme-primary;
-                }
-            }
-            &.active {
-                > a,
-                > a:focus {
-                    color: @theme-primary !important;
-                    background-color: transparent;
-                    &:hover {
-                        background-color: transparent;
-                    }
-                }
-            }
-        }
-    }
+  }
 }
 
 button.navbar-toggle {
