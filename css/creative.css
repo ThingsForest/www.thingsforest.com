@@ -109,6 +109,10 @@ body.main .navbar-default .nav > li > a,
 body.main .navbar-default .nav > li > a:focus {
   color: #111111;
 }
+body.main .navbar-default .nav > li > a:hover,
+body.main .navbar-default .nav > li > a:focus:hover {
+  color: #73cc81;
+}
 button.navbar-toggle {
   background-color: #dddddd;
 }
