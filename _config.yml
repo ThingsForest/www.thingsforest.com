@@ -1,4 +1,5 @@
-permalink: none
 highlighter: rouge
 safe: true
 markdown: kramdown
+excerpt_separator: <!--more-->
+

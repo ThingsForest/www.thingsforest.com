@@ -1,0 +1,16 @@
+---
+layout: news
+---
+
+<h1>News from the Forest...</h1>
+
+<br><br>
+
+{% for post in site.posts %}
+  <p>
+    <a href="{{ post.url }}">{{ post.date | date: '%B %d, %Y' }} - {{ post.title }}</a><br>
+    {{ post.excerpt | strip_html }}
+  </p>
+{% endfor %}
+
+<br><br><br>
