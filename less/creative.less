@@ -75,6 +75,48 @@ aside {
 
 .navbar-default {
     background-color: white;
+    border: 0px;
+    background-image: url("/img/header.jpg");
+    .sans-serif-font;
+    .transition-all;
+    .navbar-header .navbar-brand {
+        color: @theme-primary;
+        .sans-serif-font;
+        font-weight: 700;
+        text-transform: uppercase;
+        &:hover,
+        &:focus {
+            color: darken(@theme-primary, 10%);
+        }
+    }
+    .nav {
+        > li {
+            > a,
+            > a:focus {
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 13px;
+                color: white;
+                &:hover {
+                    color: @theme-primary;
+                }
+            }
+            &.active {
+                > a,
+                > a:focus {
+                    color: @theme-primary !important;
+                    background-color: transparent;
+                    &:hover {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.navbar-main {
+    background-color: white;
     border-color: fade(@theme-dark, 5%);
     .sans-serif-font;
     .transition-all;
@@ -112,43 +154,6 @@ aside {
             }
         }
     }
-    @media (min-width: 768px) {
-        background-color: transparent;
-        border-color: fade(white, 30%);
-        .navbar-header .navbar-brand {
-            color: fade(white, 70%);
-            &:hover,
-            &:focus {
-                color: white;
-            }
-        }
-        .nav > li > a,
-        .nav > li > a:focus {
-            color: fade(white, 70%);
-            &:hover {
-                color: white;
-            }
-        }
-        &.affix {
-            background-color: white;
-            border-color: fade(@theme-dark, 5%);
-            .navbar-header .navbar-brand {
-                color: @theme-primary;
-                font-size: 14px;
-                &:hover,
-                &:focus {
-                    color: darken(@theme-primary, 10%);
-                }
-            }
-            .nav > li > a,
-            .nav > li > a:focus {
-                color: @theme-dark;
-                &:hover {
-                    color: @theme-primary;
-                }
-            }
-        }
-    }
 }
 
 // Homepage Header
@@ -159,7 +164,7 @@ header {
     min-height: auto;
     .background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('/img/header.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -331,6 +336,10 @@ header {
     color: white;
     text-shadow: none;
     background: @theme-dark;
+}
+
+img.thumb {
+  margin-left: 10px;
 }
 
 img::selection {
