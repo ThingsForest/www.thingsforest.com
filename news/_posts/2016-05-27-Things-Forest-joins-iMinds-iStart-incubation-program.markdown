@@ -3,7 +3,7 @@ layout: news-item
 title: Things Forest joins iMinds' iStart incubation program
 ---
 
-Things Forest is proud to be selected for iStart, the award-winning business incubator program by iMinds.
+Things Forest is proud to be selected for iStart, the award-winning business incubation program by iMinds.
 
 <!--more-->
 
