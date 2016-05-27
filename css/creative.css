@@ -139,6 +139,9 @@ aside {
 .navbar-main .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
+button.navbar-toggle {
+  background-color: #dddddd;
+}
 header {
   position: relative;
   width: 100%;
@@ -391,6 +394,7 @@ fieldset[disabled] .btn-primary.active {
 }
 img.thumb {
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 img::selection {
   color: white;
